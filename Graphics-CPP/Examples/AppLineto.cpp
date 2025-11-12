@@ -16,7 +16,7 @@ int main()
 {
     int gd = DETECT, gm;
     initgraph(&gd, &gm, (char*)"");
-
+    
     applicationLineto();
 
     getchar();

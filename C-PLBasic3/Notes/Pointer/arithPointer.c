@@ -1,12 +1,11 @@
 #include<stdio.h>
 
-int main()
-{
-    int a = 19;
-    int *p = &a , *q = p + 1;
-    printf("%d\n", (int)p);
-    printf("%d", (int)*q);
-
+int main() {
+    int a = 123;
+    int *p = &a;
+    int *q = p + 3;
     
-
+    printf("%d\n", p);
+    printf("%d\n", q);
+    printf("%d", q - p);
 }

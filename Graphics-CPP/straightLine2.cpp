@@ -14,9 +14,9 @@ int main()
 
 //using moveto function to move initial positon of lineto function
 
-moveto(100, 100);
-lineto(250, 170);
-lineto(300, 340);
+    moveto(100, 100);
+    lineto(250, 170);
+    lineto(300, 340);
     getch();
     closegraph();
 
